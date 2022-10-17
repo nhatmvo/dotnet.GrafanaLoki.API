@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet.GrafanaLoki.API", "dotnet.GrafanaLoki.API\dotnet.GrafanaLoki.API.csproj", "{03AB70F0-0C44-4B67-BBFB-E1CC9D339EEF}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{620D4B94-44B0-4590-96F0-CCB60B087F04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03AB70F0-0C44-4B67-BBFB-E1CC9D339EEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03AB70F0-0C44-4B67-BBFB-E1CC9D339EEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03AB70F0-0C44-4B67-BBFB-E1CC9D339EEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03AB70F0-0C44-4B67-BBFB-E1CC9D339EEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{620D4B94-44B0-4590-96F0-CCB60B087F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{620D4B94-44B0-4590-96F0-CCB60B087F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{620D4B94-44B0-4590-96F0-CCB60B087F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{620D4B94-44B0-4590-96F0-CCB60B087F04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42A3F0C0-310E-4B6C-81B9-A295F5A02768}
+	EndGlobalSection
+EndGlobal
